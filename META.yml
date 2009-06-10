@@ -1,0 +1,33 @@
+--- #YAML:1.0
+name:               PPI-App-ppi_version-BDFOY
+version:            0.12
+abstract:           brian d foy's version of ppi_version
+author:
+    - brian d foy <bdfoy@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    File::Find::Rule:     0
+    File::Find::Rule::Perl:  0
+    perl:                 5.008
+    PPI:                  0
+    PPI::App::ppi_version:  0
+    Test::More:           0
+    version:              0
+resources:
+    repository:  git@github.com:briandfoy/PPI-App-ppi_version-BDFOY.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
+keywords:
+    - github
+    - git
