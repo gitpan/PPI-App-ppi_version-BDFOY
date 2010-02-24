@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               PPI-App-ppi_version-BDFOY
-version:            0.12
+version:            0.13
 abstract:           brian d foy's version of ppi_version
 author:
     - brian d foy <bdfoy@cpan.org>
@@ -16,6 +16,8 @@ requires:
     perl:                 5.008
     PPI:                  0
     PPI::App::ppi_version:  0
+    PPI::Document:        0
+    Term::ANSIColor:      0
     Test::More:           0
     version:              0
 resources:
@@ -29,5 +31,5 @@ meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
 keywords:
-    - github
-    - git
+    - ppi
+    - version
